@@ -32,3 +32,9 @@ function resetCounter() {
   num = 0
   numberElement.textContent = num
 }
+
+function writeText() {
+const inputText = document.querySelector("#input").value
+let outputText = document.querySelector("#output")
+inputText.value = outputText 
+}
